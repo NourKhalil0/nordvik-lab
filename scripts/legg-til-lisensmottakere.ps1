@@ -1,4 +1,5 @@
-Connect-MgGraph -Scopes "GroupMember.ReadWrite.All", "User.Read.All", "Group.Read.All"
+Connect-MgGraph -TenantId "nordvikmarine.onmicrosoft.com" `
+                -Scopes "GroupMember.ReadWrite.All", "User.Read.All", "Group.Read.All"
 
 $gruppe = Get-MgGroup -Filter "displayName eq 'LIC-E3'"
 if (-not $gruppe) { throw "Fant ingen gruppe som heter LIC-E3" }
