@@ -49,11 +49,13 @@ Skriv dette i README-en. En leser som ser 25 lisenser på 54 kontoer skal få vi
 
 ## Brukere
 
-`data/brukere.csv` ligger klar i Entra sitt bulk-format med 54 rader. Første linje er `version:v1.0` og skal være der, den er en del av formatet.
+`data/brukere.csv` ligger klar i Entra sitt bulk-format med 54 rader. Kolonnene er kopiert rett fra malen Entra selv laster ned, og den ligger urort ved siden av som `data/mal-entra-original.csv`. Bruk malen som fasit hvis formatet endrer seg, og la vaere aa endre kolonnenavnene. Det finnes eldre veiledninger som sier at fila skal ha en linje `version:v1.0` overst og en kolonne som heter `Block sign in`. Det stemmer ikke lenger.
+
+Last aldri ned malen til samme mappe som `brukere.csv`. Nettleseren overskriver fila uten aa spore.
 
 Fordelingen følger organisasjonskartet i Fase 0. De fire siste radene er de delte verkstedkontoene, og de er med med vilje. Du skal opprette dem slik de faktisk er i dag, med passordet fra 2022, fordi hele Fase 1 handler om å komme seg vekk fra dem. Uten utgangspunktet blir forbedringen usynlig.
 
-Alle kontoene opprettes med `Block sign in = No`. Passordene i fila er tilfeldige og skal byttes ved første pålogging uansett.
+Alle kontoene opprettes med `Account enabled = true`. Passordene i fila er tilfeldige og skal byttes ved første palogging uansett.
 
 ## Grupper
 
