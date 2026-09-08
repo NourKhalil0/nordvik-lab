@@ -6,13 +6,19 @@ Design først, klikking etterpå. Prøveperioden på lisensene varer 30 dager, o
 
 Microsoft 365 E5 på prøve gir Entra ID P2, Intune, Defender og Exchange i samme pakke. Det er det eneste alternativet som dekker hele fasen uten å stykke opp arbeidet i flere prøveperioder som utløper på ulike datoer.
 
-To ting å vite før du trykker:
+Har du ingen konto fra før, er registrering på en prøveperiode den eneste veien inn. Å opprette en tom Entra-tenant fra Azure-portalen krever at du allerede er betalende kunde, så den snarveien finnes ikke for en som starter på null. Tenanten blir altså opprettet som del av registreringen, og de 30 dagene begynner å løpe samme dag. Det er grunnen til at hele designet står ferdig i dette dokumentet før du trykker på noe.
 
-Registreringen krever betalingskort. Prøven går automatisk over til betalt årsabonnement når de 30 dagene er ute hvis du ikke sier opp. Sett en påminnelse på dag 25 med én gang du har opprettet tenanten, ikke etterpå.
+Registreringen krever betalingskort. Prøven går automatisk over til betalt årsabonnement når de 30 dagene er ute hvis du ikke sier opp. Sett påminnelsen på dag 25 i samme økt, ikke etterpå.
 
-Sjekk om Kristiania gir deg Azure for Students. Det gir kreditt uten kort, og gjør at du kan holde en Entra-tenant i live etter at E5-prøven er borte. Selve arbeidet ditt overlever uansett prøveperioden, siden policyene eksporteres til JSON og skjermbildene ligger i repoet.
+Tre valg under registreringen kan ikke gjøres om senere:
 
-Tenantnavnet blir noe i retning av `nordvikmarine.onmicrosoft.com`. Får du ikke akkurat det, søk og erstatt i `data/brukere.csv` før import.
+**Land eller region.** Velg Norge. Dette bestemmer hvor Microsoft lagrer katalogdataene, og det kan ikke endres etter at tenanten er opprettet. Står det United States når du er ferdig, må du slette tenanten og begynne på nytt.
+
+**Domeneprefikset.** `nordvikmarine.onmicrosoft.com` følger tenanten for alltid. Du kan legge til egne domener senere, men det første blir stående. Får du ikke akkurat det navnet, søk og erstatt i `data/brukere.csv` før import.
+
+**Den første kontoen.** Den blir Global Administrator automatisk. Bruk et navn som hører til laben og ikke til deg privat, for eksempel `admin@nordvikmarine.onmicrosoft.com`. Kontaktadressen kan godt være din vanlige e-post, den vises ikke i skjermbildene.
+
+Sjekk gjerne om Kristiania tilbyr Azure eller Microsoft 365 til studenter, men ikke vent på svar. Arbeidet ditt overlever uansett prøveperioden, siden policyene eksporteres til JSON og skjermbildene ligger i repoet.
 
 ## Brukere
 
@@ -48,7 +54,7 @@ Dynamiske grupper på avdeling, brukes til tilgang og til å målrette policyer.
 
 ## Nødkontoer
 
-To stykker, `brannkonto01` og `brannkonto02`. Rene skykontoer, ikke synkronisert, ikke knyttet til en person, permanent Global Administrator uten PIM.
+To stykker, `brannkonto01` og `brannkonto02`. Rene skykontoer, ikke synkronisert, ikke knyttet til en person, permanent Global Administrator uten PIM. Dette er ikke min oppfinnelse, det er Microsofts egen anbefaling for nødtilgang, og det er verdt å si i README-en at valget har en kilde.
 
 De unntas fra samtlige Conditional Access-policyer. Det er hele poenget med dem, og det er også grunnen til at unntaket skal dokumenteres og overvåkes. Lag et varsel som fyrer på enhver pålogging fra disse to kontoene, og skriv ned hvem som skal ringes når det skjer.
 
@@ -108,8 +114,8 @@ Husk sladdingen i `SKJERMBILDER.md`. Eksportene inneholder tenant-ID og objekt-I
 
 ## Rekkefølge
 
-1. Opprett tenant, sett påminnelse på dag 25
-2. Importer `data/brukere.csv`, verifiser 54 kontoer
+1. Registrer E5-prøven med Norge som land, sett påminnelse på dag 25 før du gjør noe annet
+2. Importer `data/brukere.csv`, verifiser 54 kontoer. Første skjermbilde tas her
 3. Nødkontoer og unntaksgruppe
 4. Dynamiske grupper, kontroller at medlemstallene stemmer med tabellen i Fase 0
 5. Lisensiering via `LIC-E3` og `LIC-F3`
