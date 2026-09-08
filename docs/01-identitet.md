@@ -65,7 +65,7 @@ Dynamiske grupper på avdeling, brukes til tilgang og til å målrette policyer.
 | `ROL-Okonomi` | Dynamisk | department eq Økonomi og lønn |
 | `ROL-HR` | Dynamisk | department eq HR og administrasjon |
 | `ROL-IT` | Dynamisk | department eq IT |
-| `LIC-E5` | Tildelt | De 25 som far lisens, gruppebasert lisensiering |
+| `LIC-E5` | Tildelt | De 25 som får lisens, gruppebasert lisensiering |
 | `CA-Unntak-Brannkonto` | Tildelt | De to nødkontoene, ingen andre |
 | `CA-Pilot` | Tildelt | IT og to frivillige fra salg |
 | `CA-Reiser-Utland` | Tildelt | Salg og ledelse, tidsbegrenset medlemskap |
