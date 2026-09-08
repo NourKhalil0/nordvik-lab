@@ -1,0 +1,16 @@
+# Usladdete originaler - skal aldri committes
+bilder-raa/
+*.raw.png
+
+# Eksporter som kan inneholde tenant-ID, object-ID eller hemmeligheter
+*.secret.json
+*-usladdet.*
+.env
+
+# Opptak
+*.mp4
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
