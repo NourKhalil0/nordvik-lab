@@ -1,0 +1,56 @@
+﻿version:v1.0
+Name [displayName] Required,User name [userPrincipalName] Required,Initial password [passwordProfile] Required,Block sign in (Yes/No) [accountEnabled] Required,First name [givenName],Last name [surname],Job title [jobTitle],Department [department],Usage location [usageLocation],Office [physicalDeliveryOfficeName]
+Elin Ulvestad,elin.ulvestad@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Elin,Ulvestad,Daglig leder,Ledelse,NO,Oslo
+Jørgen Vartdal,jorgen.vartdal@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Jørgen,Vartdal,Økonomisjef,Ledelse,NO,Oslo
+Åsa Alnes,asa.alnes@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Åsa,Alnes,Teknisk sjef,Ledelse,NO,Oslo
+Steinar Haugland,steinar.haugland@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Steinar,Haugland,Salgssjef,Salg og prosjekt,NO,Oslo
+Ingrid Kalstad,ingrid.kalstad@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Ingrid,Kalstad,Prosjektleder,Salg og prosjekt,NO,Oslo
+Håvard Tennfjord,havard.tennfjord@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Håvard,Tennfjord,Prosjektleder,Salg og prosjekt,NO,Oslo
+Geir Eikrem,geir.eikrem@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Geir,Eikrem,Prosjektleder,Salg og prosjekt,NO,Oslo
+Silje Gjerde,silje.gjerde@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Silje,Gjerde,Salgsingeniør,Salg og prosjekt,NO,Oslo
+Randi Walstad,randi.walstad@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Randi,Walstad,Salgsingeniør,Salg og prosjekt,NO,Oslo
+Torstein Vollan,torstein.vollan@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Torstein,Vollan,Konstruksjonsleder,Konstruksjon,NO,Oslo
+Tuva Fjeld,tuva.fjeld@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Tuva,Fjeld,Konstruktør,Konstruksjon,NO,Oslo
+Bjørn Blindheim,bjorn.blindheim@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Bjørn,Blindheim,Konstruktør,Konstruksjon,NO,Oslo
+Ola Ellingsen,ola.ellingsen@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Ola,Ellingsen,Konstruktør,Konstruksjon,NO,Oslo
+Hanne Nybø,hanne.nybo@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Hanne,Nybø,Konstruktør,Konstruksjon,NO,Oslo
+Øyvind Berge,oyvind.berge@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Øyvind,Berge,Konstruktør,Konstruksjon,NO,Oslo
+Sindre Bruvik,sindre.bruvik@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Sindre,Bruvik,Konstruktør,Konstruksjon,NO,Oslo
+Camilla Årseth,camilla.arseth@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Camilla,Årseth,Tegner,Konstruksjon,NO,Oslo
+Trygve Hjelle,trygve.hjelle@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Trygve,Hjelle,Tegner,Konstruksjon,NO,Oslo
+Solveig Ytreberg,solveig.ytreberg@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Solveig,Ytreberg,Verkstedleder,Verksted og service,NO,Ålesund
+Vilde Dahle,vilde.dahle@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Vilde,Dahle,Formann,Verksted og service,NO,Ålesund
+Halvor Urke,halvor.urke@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Halvor,Urke,Montør,Verksted og service,NO,Ålesund
+Marte Giske,marte.giske@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Marte,Giske,Montør,Verksted og service,NO,Ålesund
+Anders Grimstad,anders.grimstad@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Anders,Grimstad,Montør,Verksted og service,NO,Ålesund
+Linnea Tangen,linnea.tangen@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Linnea,Tangen,Montør,Verksted og service,NO,Ålesund
+Guro Digernes,guro.digernes@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Guro,Digernes,Montør,Verksted og service,NO,Ålesund
+Morten Myklebust,morten.myklebust@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Morten,Myklebust,Montør,Verksted og service,NO,Ålesund
+Fredrik Nordstrand,fredrik.nordstrand@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Fredrik,Nordstrand,Montør,Verksted og service,NO,Ålesund
+Birgitte Roald,birgitte.roald@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Birgitte,Roald,Montør,Verksted og service,NO,Ålesund
+Lars Kleppe,lars.kleppe@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Lars,Kleppe,Montør,Verksted og service,NO,Ålesund
+Nikolai Ramsdal,nikolai.ramsdal@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Nikolai,Ramsdal,Montør,Verksted og service,NO,Ålesund
+Rune Skår,rune.skar@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Rune,Skår,Servicetekniker,Verksted og service,NO,Ålesund
+Nora Iversen,nora.iversen@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Nora,Iversen,Servicetekniker,Verksted og service,NO,Ålesund
+Jonas Kvalsvik,jonas.kvalsvik@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Jonas,Kvalsvik,Servicetekniker,Verksted og service,NO,Ålesund
+Vegard Flem,vegard.flem@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Vegard,Flem,Servicetekniker,Verksted og service,NO,Ålesund
+Magnus Ålborg,magnus.alborg@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Magnus,Ålborg,Lærling,Verksted og service,NO,Ålesund
+Espen Instefjord,espen.instefjord@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Espen,Instefjord,Lærling,Verksted og service,NO,Ålesund
+Ida Rovde,ida.rovde@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Ida,Rovde,Innkjøpssjef,Innkjøp og logistikk,NO,Ålesund
+Audun Emblem,audun.emblem@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Audun,Emblem,Innkjøper,Innkjøp og logistikk,NO,Ålesund
+Anette Løvik,anette.lovik@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Anette,Løvik,Innkjøper,Innkjøp og logistikk,NO,Ålesund
+Petter Longva,petter.longva@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Petter,Longva,Lagermedarbeider,Innkjøp og logistikk,NO,Ålesund
+Julie Jacobsen,julie.jacobsen@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Julie,Jacobsen,Lagermedarbeider,Innkjøp og logistikk,NO,Ålesund
+Kjetil Næss,kjetil.naess@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Kjetil,Næss,Regnskapssjef,Økonomi og lønn,NO,Oslo
+Kristin Devold,kristin.devold@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Kristin,Devold,Regnskapsmedarbeider,Økonomi og lønn,NO,Oslo
+Erik Osland,erik.osland@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Erik,Osland,Regnskapsmedarbeider,Økonomi og lønn,NO,Oslo
+Malin Hovden,malin.hovden@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Malin,Hovden,Lønnsansvarlig,Økonomi og lønn,NO,Oslo
+Elin Slyngstad,elin.slyngstad@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Elin,Slyngstad,HR-ansvarlig,HR og administrasjon,NO,Oslo
+Jørgen Opsahl,jorgen.opsahl@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Jørgen,Opsahl,Resepsjonist,HR og administrasjon,NO,Oslo
+Åsa Presthus,asa.presthus@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Åsa,Presthus,Kontormedarbeider,HR og administrasjon,NO,Oslo
+Steinar Furnes,steinar.furnes@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Steinar,Furnes,Systemansvarlig,IT,NO,Oslo
+Ingrid Wiik,ingrid.wiik@nordvikmarine.onmicrosoft.com,IkkePublisert123!,No,Ingrid,Wiik,IT-lærling,IT,NO,Oslo
+Verksted Skift 1,verksted.skift1@nordvikmarine.onmicrosoft.com,Verksted2022!,No,Verksted,1,Delt konto skift 1,Verksted og service,NO,Ålesund
+Verksted Skift 2,verksted.skift2@nordvikmarine.onmicrosoft.com,Verksted2022!,No,Verksted,2,Delt konto skift 2,Verksted og service,NO,Ålesund
+Verksted Skift 3,verksted.skift3@nordvikmarine.onmicrosoft.com,Verksted2022!,No,Verksted,3,Delt konto skift 3,Verksted og service,NO,Ålesund
+Verksted Lærling,verksted.laerling@nordvikmarine.onmicrosoft.com,Verksted2022!,No,Verksted,Lærling,Delt konto lærlinger,Verksted og service,NO,Ålesund

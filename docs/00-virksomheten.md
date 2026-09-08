@@ -6,7 +6,7 @@ Oppdiktet selskap. Alt under her er konstruert for laben, men det er konstruert 
 
 Nordvik Marine reparerer og bygger om hydraulisk dekksutstyr. Vinsjer, kraner og kveilere til fiskefartøy og offshore forsyningsskip. De tar imot utstyr på verkstedet i Ålesund, og de sender montører ut til fartøy som ligger til kai andre steder på kysten. Salg, konstruksjon og økonomi sitter på Skøyen i Oslo.
 
-Selskapet ble stiftet i 1998 av to brødre som fortsatt eier det. Omsetningen ligger rundt 96 millioner. De har 58 ansatte, men bare 54 brukerkontoer, og den forskjellen er en av tingene som skal ryddes opp i.
+Selskapet ble stiftet i 1998 av to brødre som fortsatt eier det. Omsetningen ligger rundt 96 millioner. De har 56 ansatte, men bare 54 brukerkontoer, og seks av montørene deler de fire siste. Den forskjellen er en av tingene som skal ryddes opp i.
 
 Kundene er i hovedsak rederier, men de siste fire årene har en større del av inntekten kommet fra to verft som bruker Nordvik som underleverandør. Det er derfra sikkerhetskravene kommer.
 
