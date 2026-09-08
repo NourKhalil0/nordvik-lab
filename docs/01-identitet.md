@@ -20,6 +20,27 @@ Tre valg under registreringen kan ikke gjøres om senere:
 
 Sjekk gjerne om Kristiania tilbyr Azure eller Microsoft 365 til studenter, men ikke vent på svar. Arbeidet ditt overlever uansett prøveperioden, siden policyene eksporteres til JSON og skjermbildene ligger i repoet.
 
+## Lisenser rekker ikke til alle
+
+Prøven gir 25 lisenser. Nordvik har 54 kontoer. Det er ikke et problem, men det er et valg som må tas bevisst og skrives ned.
+
+Kontoer uten lisens koster ingenting i Entra. Opprett derfor alle 54, slik at organisasjonskartet, de dynamiske gruppene og medlemstallene stemmer med Fase 0. Lisensene går til de 25 som faktisk brukes i demonstrasjonene.
+
+| Gruppe | Lisenser | Hvorfor |
+|---|---|---|
+| IT | 2 | Administrasjon og PIM |
+| Ledelse | 3 | Skal tvinges på tofaktor, det er selve poenget i CA01 |
+| Konstruksjon | 4 av 9 | Kronjuvelen, brukes til tilgangsstyring mot tegningsarkivet |
+| Salg og prosjekt | 3 av 6 | Reiser, brukes i geo-policyen CA04 |
+| Verksted og service | 8 av 22 | Delt enhetsmodus, FIDO2 og overgangen vekk fra delte kontoer |
+| Økonomi og lønn | 2 av 4 | |
+| Innkjøp og logistikk | 2 av 5 | |
+| HR og administrasjon | 1 av 3 | |
+
+Nødkontoene får ikke lisens. De skal kunne logge inn og administrere, og det krever ikke postkasse.
+
+Skriv dette i README-en. En leser som ser 25 lisenser på 54 kontoer skal få vite at det er prøveperioden som setter grensen, ikke at du ikke skjønte det. Det er også en ærlig ting å ha med i et intervju.
+
 ## Brukere
 
 `data/brukere.csv` ligger klar i Entra sitt bulk-format med 54 rader. Første linje er `version:v1.0` og skal være der, den er en del av formatet.
@@ -44,8 +65,7 @@ Dynamiske grupper på avdeling, brukes til tilgang og til å målrette policyer.
 | `ROL-Okonomi` | Dynamisk | department eq Økonomi og lønn |
 | `ROL-HR` | Dynamisk | department eq HR og administrasjon |
 | `ROL-IT` | Dynamisk | department eq IT |
-| `LIC-E3` | Tildelt | Kontoransatte, gruppebasert lisensiering |
-| `LIC-F3` | Tildelt | Verksted og lager |
+| `LIC-E5` | Tildelt | De 25 som far lisens, gruppebasert lisensiering |
 | `CA-Unntak-Brannkonto` | Tildelt | De to nødkontoene, ingen andre |
 | `CA-Pilot` | Tildelt | IT og to frivillige fra salg |
 | `CA-Reiser-Utland` | Tildelt | Salg og ledelse, tidsbegrenset medlemskap |
@@ -118,7 +138,7 @@ Husk sladdingen i `SKJERMBILDER.md`. Eksportene inneholder tenant-ID og objekt-I
 2. Importer `data/brukere.csv`, verifiser 54 kontoer. Første skjermbilde tas her
 3. Nødkontoer og unntaksgruppe
 4. Dynamiske grupper, kontroller at medlemstallene stemmer med tabellen i Fase 0
-5. Lisensiering via `LIC-E3` og `LIC-F3`
+5. Lisensiering via `LIC-E5`, 25 stykker etter tabellen over
 6. CA01 og CA02 i rapporteringsmodus, la dem stå i tre døgn
 7. Les rapporten, ta skjermbildene, skru dem på for `CA-Pilot`
 8. Resten av policyene, samme løype
