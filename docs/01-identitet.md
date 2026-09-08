@@ -4,11 +4,11 @@ Design først, klikking etterpå. Prøveperioden på lisensene varer 30 dager, o
 
 ## Lisens og oppsett
 
-Microsoft 365 E5 på prøve gir Entra ID P2, Intune, Defender og Exchange i samme pakke. Det er det eneste alternativet som dekker hele fasen uten å stykke opp arbeidet i flere prøveperioder som utløper på ulike datoer.
+Prøven som faktisk var tilgjengelig ble Microsoft 365 E3, ikke E5. E3 gir Entra ID P1, Intune og Exchange, altså Conditional Access og dynamiske grupper. Det som mangler er PIM, Identity Protection og risikobasert pålogging, og de hentes fra Entra sin egen P2-prøve på 31 dager som aktiveres inne i portalen under Licenses.
 
 Har du ingen konto fra før, er registrering på en prøveperiode den eneste veien inn. Å opprette en tom Entra-tenant fra Azure-portalen krever at du allerede er betalende kunde, så den snarveien finnes ikke for en som starter på null. Tenanten blir altså opprettet som del av registreringen, og de 30 dagene begynner å løpe samme dag. Det er grunnen til at hele designet står ferdig i dette dokumentet før du trykker på noe.
 
-Registreringen krever betalingskort. Prøven går automatisk over til betalt årsabonnement når de 30 dagene er ute hvis du ikke sier opp, og 25 E5-lisenser er dyrt nok til at det gjør vondt.
+Registreringen krever betalingskort. Prøven går automatisk over til betalt årsabonnement når de 30 dagene er ute hvis du ikke sier opp, og 25 E3-lisenser er dyrt nok til at det gjør vondt.
 
 Slå derfor av automatisk fornyelse med én gang tenanten er opprettet, før du gjør noe annet i portalen. I Microsoft 365 administrasjonssenter under Fakturering og Produktene dine finner du abonnementet og en bryter for gjentakende fakturering. Skru den av. Prøven fortsetter å virke i alle 30 dagene, men den går ut i stedet for å bli fornyet, og kortet belastes ikke. Finner du ikke bryteren, avbryt abonnementet i stedet. Et avbrutt prøveabonnement er aktivt ut perioden.
 
@@ -75,7 +75,7 @@ Dynamiske grupper på avdeling, brukes til tilgang og til å målrette policyer.
 | `ROL-Okonomi` | Dynamisk | department eq Økonomi og lønn |
 | `ROL-HR` | Dynamisk | department eq HR og administrasjon |
 | `ROL-IT` | Dynamisk | department eq IT |
-| `LIC-E5` | Tildelt | De 25 som får lisens, gruppebasert lisensiering |
+| `LIC-E3` | Tildelt | De 25 som får lisens, gruppebasert lisensiering |
 | `CA-Unntak-Brannkonto` | Tildelt | De to nødkontoene, ingen andre |
 | `CA-Pilot` | Tildelt | IT og to frivillige fra salg |
 | `CA-Reiser-Utland` | Tildelt | Salg og ledelse, tidsbegrenset medlemskap |
@@ -148,7 +148,7 @@ Husk sladdingen i `SKJERMBILDER.md`. Eksportene inneholder tenant-ID og objekt-I
 2. Importer `data/brukere.csv`, verifiser 54 kontoer. Første skjermbilde tas her
 3. Nødkontoer og unntaksgruppe
 4. Dynamiske grupper, kontroller at medlemstallene stemmer med tabellen i Fase 0
-5. Lisensiering via `LIC-E5`, 25 stykker etter tabellen over
+5. Lisensiering via `LIC-E3`, 25 stykker etter tabellen over
 6. CA01 og CA02 i rapporteringsmodus, la dem stå i tre døgn
 7. Les rapporten, ta skjermbildene, skru dem på for `CA-Pilot`
 8. Resten av policyene, samme løype
