@@ -8,7 +8,13 @@ Microsoft 365 E5 på prøve gir Entra ID P2, Intune, Defender og Exchange i samm
 
 Har du ingen konto fra før, er registrering på en prøveperiode den eneste veien inn. Å opprette en tom Entra-tenant fra Azure-portalen krever at du allerede er betalende kunde, så den snarveien finnes ikke for en som starter på null. Tenanten blir altså opprettet som del av registreringen, og de 30 dagene begynner å løpe samme dag. Det er grunnen til at hele designet står ferdig i dette dokumentet før du trykker på noe.
 
-Registreringen krever betalingskort. Prøven går automatisk over til betalt årsabonnement når de 30 dagene er ute hvis du ikke sier opp. Sett påminnelsen på dag 25 i samme økt, ikke etterpå.
+Registreringen krever betalingskort. Prøven går automatisk over til betalt årsabonnement når de 30 dagene er ute hvis du ikke sier opp, og 25 E5-lisenser er dyrt nok til at det gjør vondt.
+
+Slå derfor av automatisk fornyelse med én gang tenanten er opprettet, før du gjør noe annet i portalen. I Microsoft 365 administrasjonssenter under Fakturering og Produktene dine finner du abonnementet og en bryter for gjentakende fakturering. Skru den av. Prøven fortsetter å virke i alle 30 dagene, men den går ut i stedet for å bli fornyet, og kortet belastes ikke. Finner du ikke bryteren, avbryt abonnementet i stedet. Et avbrutt prøveabonnement er aktivt ut perioden.
+
+Sett påminnelsen på dag 25 uansett, som en kontroll på at det faktisk ble gjort.
+
+Du trenger ikke alle 30 dagene. Designet er ferdig, så selve byggingen er fire til seks kvelder. Når skjermbildene og JSON-eksportene ligger i repoet, har prøven gjort jobben sin.
 
 Tre valg under registreringen kan ikke gjøres om senere:
 
