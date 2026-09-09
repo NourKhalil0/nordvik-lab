@@ -57,7 +57,7 @@ Last aldri ned malen til samme mappe som `brukere.csv`. Nettleseren overskriver 
 
 Fordelingen følger organisasjonskartet i Fase 0. De fire siste radene er de delte verkstedkontoene, og de er med med vilje. Du skal opprette dem slik de faktisk er i dag, med passordet fra 2022, fordi hele Fase 1 handler om å komme seg vekk fra dem. Uten utgangspunktet blir forbedringen usynlig.
 
-Alle kontoene opprettes med `Account enabled = true`. Passordene i fila er tilfeldige og skal byttes ved første pålogging uansett.
+Alle kontoene opprettes med `Account enabled = true`. Passordene som ble brukt var tilfeldig genererte per bruker og byttes ved første pålogging. I versjonen som ligger i repoet er passordkolonnen erstattet med en plassholder, siden en CSV med brukernavn og passord ikke hører hjemme i et offentlig repo uansett hvor kortlevd tenanten er.
 
 ## Grupper
 
