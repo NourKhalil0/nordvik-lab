@@ -1,0 +1,14 @@
+{
+  "displayName": "ROL-HR",
+  "description": "Dynamisk. Alle i avdeling HR og administrasjon.",
+  "membershipRule": "user.department -eq \"HR og administrasjon\"",
+  "membershipTypes": [
+    "DynamicMembership"
+  ],
+  "memberCount": 3,
+  "members": [
+    "asa.presthus@nordvikmarine.onmicrosoft.com",
+    "jorgen.opsahl@nordvikmarine.onmicrosoft.com",
+    "elin.slyngstad@nordvikmarine.onmicrosoft.com"
+  ]
+}

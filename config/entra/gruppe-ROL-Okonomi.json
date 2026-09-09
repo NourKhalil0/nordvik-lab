@@ -1,0 +1,15 @@
+{
+  "displayName": "ROL-Okonomi",
+  "description": "Dynamisk. Alle i avdeling Okonomi og lonn.",
+  "membershipRule": "user.department -eq \"Økonomi og lønn\"",
+  "membershipTypes": [
+    "DynamicMembership"
+  ],
+  "memberCount": 4,
+  "members": [
+    "kristin.devold@nordvikmarine.onmicrosoft.com",
+    "kjetil.naess@nordvikmarine.onmicrosoft.com",
+    "erik.osland@nordvikmarine.onmicrosoft.com",
+    "malin.hovden@nordvikmarine.onmicrosoft.com"
+  ]
+}

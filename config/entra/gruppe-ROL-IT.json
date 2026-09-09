@@ -1,0 +1,13 @@
+{
+  "displayName": "ROL-IT",
+  "description": "Dynamisk. Alle i avdeling IT.",
+  "membershipRule": "user.department -eq \"IT\"",
+  "membershipTypes": [
+    "DynamicMembership"
+  ],
+  "memberCount": 2,
+  "members": [
+    "steinar.furnes@nordvikmarine.onmicrosoft.com",
+    "ingrid.wiik@nordvikmarine.onmicrosoft.com"
+  ]
+}

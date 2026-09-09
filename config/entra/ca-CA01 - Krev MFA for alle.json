@@ -1,0 +1,57 @@
+{
+  "displayName": "CA01 - Krev MFA for alle",
+  "grantControls": {
+    "customAuthenticationFactors": [],
+    "authenticationStrength@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identity/conditionalAccess/policies('6259550a-28a3-4b67-a688-3a30014726ab')/grantControls/authenticationStrength/$entity",
+    "builtInControls": [
+      "mfa"
+    ],
+    "operator": "OR",
+    "authenticationStrength": null,
+    "termsOfUse": []
+  },
+  "modifiedDateTime": null,
+  "templateId": null,
+  "conditions": {
+    "authenticationFlows": null,
+    "applications": {
+      "includeAuthenticationContextClassReferences": [],
+      "includeApplications": [
+        "All"
+      ],
+      "excludeApplications": [],
+      "applicationFilter": null,
+      "includeUserActions": []
+    },
+    "userRiskLevels": [],
+    "clientApplications": null,
+    "platforms": null,
+    "servicePrincipalRiskLevels": [],
+    "clientAppTypes": [
+      "all"
+    ],
+    "insiderRiskLevels": null,
+    "locations": null,
+    "users": {
+      "includeGroups": [],
+      "excludeGuestsOrExternalUsers": null,
+      "excludeRoles": [],
+      "includeUsers": [
+        "All"
+      ],
+      "excludeUsers": [
+        "3b6ca3c3-a120-4adb-90e8-f524dbc8615b"
+      ],
+      "excludeGroups": [],
+      "includeRoles": [],
+      "includeGuestsOrExternalUsers": null
+    },
+    "signInRiskLevels": [],
+    "devices": null
+  },
+  "sessionControls": null,
+  "createdDateTime": "2026-09-08T12:53:15.2276317Z",
+  "id": "6259550a-28a3-4b67-a688-3a30014726ab",
+  "state": "enabledForReportingButNotEnforced",
+  "deletedDateTime": null
+}

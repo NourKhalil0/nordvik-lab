@@ -1,0 +1,11 @@
+{
+  "displayName": "CA-Unntak-Brannkonto",
+  "description": "Kun de to nødkontoene. Unntas fra samtlige CA-policyer",
+  "membershipRule": null,
+  "membershipTypes": [],
+  "memberCount": 2,
+  "members": [
+    "brannkonto02@nordvikmarine.onmicrosoft.com",
+    "brannkonto01@nordvikmarine.onmicrosoft.com"
+  ]
+}

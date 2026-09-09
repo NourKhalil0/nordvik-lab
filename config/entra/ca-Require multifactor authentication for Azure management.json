@@ -1,0 +1,55 @@
+{
+  "displayName": "Require multifactor authentication for Azure management",
+  "grantControls": {
+    "customAuthenticationFactors": [],
+    "authenticationStrength@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identity/conditionalAccess/policies('b4d9e741-6108-4ef9-9da3-2f4fb82840bc')/grantControls/authenticationStrength/$entity",
+    "builtInControls": [
+      "mfa"
+    ],
+    "operator": "OR",
+    "authenticationStrength": null,
+    "termsOfUse": []
+  },
+  "modifiedDateTime": null,
+  "templateId": "a867d208-f2b5-4cf0-ae6e-c90eadeeff91",
+  "conditions": {
+    "authenticationFlows": null,
+    "applications": {
+      "includeAuthenticationContextClassReferences": [],
+      "includeApplications": [
+        "797f4846-ba00-4fd7-ba43-dac1f8f63013"
+      ],
+      "excludeApplications": [],
+      "applicationFilter": null,
+      "includeUserActions": []
+    },
+    "userRiskLevels": [],
+    "clientApplications": null,
+    "platforms": null,
+    "servicePrincipalRiskLevels": [],
+    "clientAppTypes": [
+      "all"
+    ],
+    "insiderRiskLevels": null,
+    "locations": null,
+    "users": {
+      "includeGroups": [],
+      "excludeGuestsOrExternalUsers": null,
+      "excludeRoles": [],
+      "includeUsers": [
+        "All"
+      ],
+      "excludeUsers": [],
+      "excludeGroups": [],
+      "includeRoles": [],
+      "includeGuestsOrExternalUsers": null
+    },
+    "signInRiskLevels": [],
+    "devices": null
+  },
+  "sessionControls": null,
+  "createdDateTime": "2026-09-08T12:49:27.8399162Z",
+  "id": "b4d9e741-6108-4ef9-9da3-2f4fb82840bc",
+  "state": "enabled",
+  "deletedDateTime": null
+}

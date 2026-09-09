@@ -1,0 +1,58 @@
+{
+  "displayName": "CA02 - Blokker eldre autentisering",
+  "grantControls": {
+    "customAuthenticationFactors": [],
+    "authenticationStrength@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identity/conditionalAccess/policies('6cd839d1-afbf-4dad-823c-d187088cb4b3')/grantControls/authenticationStrength/$entity",
+    "builtInControls": [
+      "block"
+    ],
+    "operator": "OR",
+    "authenticationStrength": null,
+    "termsOfUse": []
+  },
+  "modifiedDateTime": null,
+  "templateId": null,
+  "conditions": {
+    "authenticationFlows": null,
+    "applications": {
+      "includeAuthenticationContextClassReferences": [],
+      "includeApplications": [
+        "All"
+      ],
+      "excludeApplications": [],
+      "applicationFilter": null,
+      "includeUserActions": []
+    },
+    "userRiskLevels": [],
+    "clientApplications": null,
+    "platforms": null,
+    "servicePrincipalRiskLevels": [],
+    "clientAppTypes": [
+      "exchangeActiveSync",
+      "other"
+    ],
+    "insiderRiskLevels": null,
+    "locations": null,
+    "users": {
+      "includeGroups": [],
+      "excludeGuestsOrExternalUsers": null,
+      "excludeRoles": [],
+      "includeUsers": [
+        "All"
+      ],
+      "excludeUsers": [],
+      "excludeGroups": [
+        "48f81712-eb15-4050-ad27-1fd33d8a5261"
+      ],
+      "includeRoles": [],
+      "includeGuestsOrExternalUsers": null
+    },
+    "signInRiskLevels": [],
+    "devices": null
+  },
+  "sessionControls": null,
+  "createdDateTime": "2026-09-08T13:04:46.1655221Z",
+  "id": "6cd839d1-afbf-4dad-823c-d187088cb4b3",
+  "state": "enabledForReportingButNotEnforced",
+  "deletedDateTime": null
+}

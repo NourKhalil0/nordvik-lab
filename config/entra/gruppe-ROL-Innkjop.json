@@ -1,0 +1,16 @@
+{
+  "displayName": "ROL-Innkjop",
+  "description": "Dynamisk. Alle i avdeling Innkjop og logistikk.",
+  "membershipRule": "user.department -eq \"Innkjøp og logistikk\"",
+  "membershipTypes": [
+    "DynamicMembership"
+  ],
+  "memberCount": 5,
+  "members": [
+    "petter.longva@nordvikmarine.onmicrosoft.com",
+    "julie.jacobsen@nordvikmarine.onmicrosoft.com",
+    "anette.lovik@nordvikmarine.onmicrosoft.com",
+    "audun.emblem@nordvikmarine.onmicrosoft.com",
+    "ida.rovde@nordvikmarine.onmicrosoft.com"
+  ]
+}

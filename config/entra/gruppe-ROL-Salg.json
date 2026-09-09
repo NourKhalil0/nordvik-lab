@@ -1,0 +1,17 @@
+{
+  "displayName": "ROL-Salg",
+  "description": "Dynamisk. Alle i avdeling Salg og prosjekt",
+  "membershipRule": "user.department -eq \"Salg og prosjekt\"",
+  "membershipTypes": [
+    "DynamicMembership"
+  ],
+  "memberCount": 6,
+  "members": [
+    "havard.tennfjord@nordvikmarine.onmicrosoft.com",
+    "ingrid.kalstad@nordvikmarine.onmicrosoft.com",
+    "geir.eikrem@nordvikmarine.onmicrosoft.com",
+    "silje.gjerde@nordvikmarine.onmicrosoft.com",
+    "steinar.haugland@nordvikmarine.onmicrosoft.com",
+    "randi.walstad@nordvikmarine.onmicrosoft.com"
+  ]
+}

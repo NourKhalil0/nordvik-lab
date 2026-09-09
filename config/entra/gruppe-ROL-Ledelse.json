@@ -1,0 +1,14 @@
+{
+  "displayName": "ROL-Ledelse",
+  "description": "Dynamisk. Alle i avdeling Ledelse.",
+  "membershipRule": "user.department -eq \"Ledelse\"",
+  "membershipTypes": [
+    "DynamicMembership"
+  ],
+  "memberCount": 3,
+  "members": [
+    "jorgen.vartdal@nordvikmarine.onmicrosoft.com",
+    "asa.alnes@nordvikmarine.onmicrosoft.com",
+    "elin.ulvestad@nordvikmarine.onmicrosoft.com"
+  ]
+}

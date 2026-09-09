@@ -1,0 +1,33 @@
+{
+  "displayName": "ROL-Verksted",
+  "description": "Dynamisk. Alle i avdeling Verksted og service, inkludert de delte kontoene.",
+  "membershipRule": "user.department -eq \"Verksted og service\"",
+  "membershipTypes": [
+    "DynamicMembership"
+  ],
+  "memberCount": 22,
+  "members": [
+    "anders.grimstad@nordvikmarine.onmicrosoft.com",
+    "solveig.ytreberg@nordvikmarine.onmicrosoft.com",
+    "marte.giske@nordvikmarine.onmicrosoft.com",
+    "vilde.dahle@nordvikmarine.onmicrosoft.com",
+    "lars.kleppe@nordvikmarine.onmicrosoft.com",
+    "birgitte.roald@nordvikmarine.onmicrosoft.com",
+    "linnea.tangen@nordvikmarine.onmicrosoft.com",
+    "guro.digernes@nordvikmarine.onmicrosoft.com",
+    "morten.myklebust@nordvikmarine.onmicrosoft.com",
+    "fredrik.nordstrand@nordvikmarine.onmicrosoft.com",
+    "halvor.urke@nordvikmarine.onmicrosoft.com",
+    "nikolai.ramsdal@nordvikmarine.onmicrosoft.com",
+    "rune.skar@nordvikmarine.onmicrosoft.com",
+    "nora.iversen@nordvikmarine.onmicrosoft.com",
+    "jonas.kvalsvik@nordvikmarine.onmicrosoft.com",
+    "vegard.flem@nordvikmarine.onmicrosoft.com",
+    "magnus.alborg@nordvikmarine.onmicrosoft.com",
+    "espen.instefjord@nordvikmarine.onmicrosoft.com",
+    "verksted.skift1@nordvikmarine.onmicrosoft.com",
+    "verksted.skift2@nordvikmarine.onmicrosoft.com",
+    "verksted.laerling@nordvikmarine.onmicrosoft.com",
+    "verksted.skift3@nordvikmarine.onmicrosoft.com"
+  ]
+}

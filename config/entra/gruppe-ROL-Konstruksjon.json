@@ -1,0 +1,20 @@
+{
+  "displayName": "ROL-Konstruksjon",
+  "description": "Dynamisk. Alle i avdeling Konstruksjon. Har tilgang til tegningsarkivet.",
+  "membershipRule": "user.department -eq \"Konstruksjon\"",
+  "membershipTypes": [
+    "DynamicMembership"
+  ],
+  "memberCount": 9,
+  "members": [
+    "tuva.fjeld@nordvikmarine.onmicrosoft.com",
+    "torstein.vollan@nordvikmarine.onmicrosoft.com",
+    "trygve.hjelle@nordvikmarine.onmicrosoft.com",
+    "camilla.arseth@nordvikmarine.onmicrosoft.com",
+    "sindre.bruvik@nordvikmarine.onmicrosoft.com",
+    "oyvind.berge@nordvikmarine.onmicrosoft.com",
+    "hanne.nybo@nordvikmarine.onmicrosoft.com",
+    "ola.ellingsen@nordvikmarine.onmicrosoft.com",
+    "bjorn.blindheim@nordvikmarine.onmicrosoft.com"
+  ]
+}
