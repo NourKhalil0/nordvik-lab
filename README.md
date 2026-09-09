@@ -114,6 +114,8 @@ CA07 uses a device filter so it only hits machines we do not manage. A managed c
 
 ![Device filter on CA07](docs/bilder/01-identitet/33_ca07-enhetsfilter.png)
 
+The JSON exports in `config/entra/` were taken before CA03 to CA07 existed, so only CA01 and CA02 are in there. The other five are in the screenshots until the export runs again.
+
 Everything stays in report-only for now. A policy sitting in report-only with hits in the log is more useful than one that is simply switched on, because you can see who it would have blocked before anybody actually is.
 
 ## Getting a device enrolled
